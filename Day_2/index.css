@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+  font-family: monospace;
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+header {
+  text-align: center;
+}
+
+section {
+  margin: 0px 20px 0px 20px;
+}
+
+.Image_holder {
+  display: flex;
+  width: 20%;
+  height: auto;
+}

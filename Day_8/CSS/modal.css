@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0px;
+  left: 0px;
+  width: 628px;
+  height: 326px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255, 0.2);  */
+  margin: auto;
+  overflow: auto;
+  margin: 145px 326px 186px 326px;
+}
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 38px;
+}
+
+.close {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 23px;
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+#input-field {
+  height: 61px;
+  width: 350px;
+  margin-top: 52px;
+  border-radius: 0px;
+  background-color: transparent;
+  align-self: center;
+  border: 2px solid black;
+}
+::placeholder {
+  color: black;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+
+#input-button {
+  height: 53px;
+  width: 350px;
+  margin-top: 21px;
+  border-radius: 50px;
+  border: none;
+  background-color: #202649;
+  align-self: center;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,55 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="./CSS/modal.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navBar">
+            <h1>Name</h1>
+            <ul class="classList">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Background</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+            <button class="buttons" id="modal-button">Subscribe</button>
+        </nav>
+    </header>
+
+    <section class="sectionOne">
+        <div class="imageDiv1">
+            <img src="./Assets/Ellipse 3.svg" alt="Image1" id="image-one" />
+            <div class="imageDiv2">
+                <img src="./Assets/Ellipse 1.svg" id="image-two" />
+                <img src="./Assets/Ellipse 2.svg" id="image-three" />
+            </div>
+        </div>
+        <div class="headingText">
+
+            <p>HELLO <br /> AND
+                WELCOME
+            </p>
+
+        </div>
+    </section>
+
+    <div class="modal">
+        <form action="./form.html" class="modalContent">
+            <span class="close">&times;</span>
+
+            <input type="text" name="email" value="" placeholder="Enter your email..." id="input-field" />
+            <button id="input-button" type="submit">Subscribe</button>
+        </form>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

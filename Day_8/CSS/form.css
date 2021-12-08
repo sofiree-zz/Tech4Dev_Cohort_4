@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+body {
+  background-color: white;
+}
+
+.formSection {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#form-div {
+  height: 481px;
+  width: 400px;
+  margin-top: 78px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 0px #00000040;
+}
+
+#form-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.emailInput,
+.nameInput,
+.numberInput {
+  height: 61px;
+  width: 350px;
+  margin-top: 39px;
+  border-radius: 0px;
+  border: 2px solid black;
+}
+
+::placeholder {
+  color: black;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  padding-left: 20px;
+  opacity: 0.5;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#submit-input {
+  height: 53px;
+  width: 350px;
+  margin-top: 87px;
+  border: none;
+  border-radius: 50px;
+  background-color: #202649;
+  color: white;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+#form-minidiv {
+  height: 321px;
+  width: 400px;
+  margin-top: 166px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px 0px #00000040;
+}
+
+span,
+p {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: black;
+}
+
+#divs {
+  width: 216px;
+  height: 42px;
+  margin-left: 25px;
+  margin-top: 38px;
+}
